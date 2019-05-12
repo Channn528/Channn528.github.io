@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <style>
+    .btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
+
+.navbar-custom {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+header.masthead {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
+  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead .masthead-content {
+  z-index: 1;
+  position: relative;
+}
+
+header.masthead .masthead-content .masthead-heading {
+  font-size: 4rem;
+}
+
+header.masthead .masthead-content .masthead-subheading {
+  font-size: 2rem;
+}
+
+header.masthead .bg-circle {
+  z-index: 0;
+  position: absolute;
+  border-radius: 100%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ee0979), to(#ff6a00));
+  background: linear-gradient(0deg, #ee0979 0%, #ff6a00 100%);
+}
+
+header.masthead .bg-circle-1 {
+  height: 90rem;
+  width: 90rem;
+  bottom: -55rem;
+  left: -55rem;
+}
+
+header.masthead .bg-circle-2 {
+  height: 50rem;
+  width: 50rem;
+  top: -25rem;
+  right: -25rem;
+}
+
+header.masthead .bg-circle-3 {
+  height: 20rem;
+  width: 20rem;
+  bottom: -10rem;
+  right: 5%;
+}
+
+header.masthead .bg-circle-4 {
+  height: 30rem;
+  width: 30rem;
+  top: -5rem;
+  right: 35%;
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 4rem;
+  }
+}
+
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979;
+  border-color: #ee0979;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
+
+  </style>
+  <title>동대멋사 에이스 김 찬 영</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="{% static 'https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900' %}" rel="stylesheet">
+  <link href="{% static 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/one-page-wonder.min.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+<style type = "text/css">
+  @font-face { font-family: '777Balsamtint'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Balsamtint.woff') format('woff'); font-weight: normal; font-style: normal; }
+  @font-face { font-family: 'yg-jalnan'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff'); font-weight: light; font-style: normal; }
+  h1,h2,h3,h4,h5,h6{
+    font-family: "yg-jalnan", sans-serif;
+    
+    
+  }
+  .masthead-subheading mb-0{
+    
+    font-size: 30px;
+  }
+  .display-4{
+    font-size: 40px;}
+  p{ font-family: "777Balsamtint", sans-serif;
+    font-size: 25px;
+  }
+  body{font-family:Lato}h1,h2,h3,h4,h5,h6{font-family:Catamaran;font-weight:800!important}.btn-xl{text-transform:uppercase;padding:1.5rem 3rem;font-size:.9rem;font-weight:700;letter-spacing:.1rem}.bg-black{background-color:#000!important}.rounded-pill{border-radius:5rem}.navbar-custom{padding-top:1rem;padding-bottom:1rem;background-color:rgba(0,0,0,.7)}.navbar-custom .navbar-brand{text-transform:uppercase;font-size:1rem;letter-spacing:.1rem;font-weight:700}.navbar-custom .navbar-nav .nav-item .nav-link{text-transform:uppercase;font-size:.8rem;font-weight:700;letter-spacing:.1rem}header.masthead{position:relative;overflow:hidden;padding-top:calc(7rem + 72px);padding-bottom:7rem;background:-webkit-gradient(linear,left bottom,left top,from(#ff6a00),to(#ee0979));background:linear-gradient(0deg,#ff6a00 0,#ee0979 100%);background-repeat:no-repeat;background-position:center center;background-attachment:scroll;background-size:cover}header.masthead .masthead-content{z-index:1;position:relative}header.masthead .masthead-content .masthead-heading{font-size:4rem}header.masthead .masthead-content .masthead-subheading{font-size:2rem}header.masthead .bg-circle{z-index:0;position:absolute;border-radius:100%;background:-webkit-gradient(linear,left bottom,left top,from(#ee0979),to(#ff6a00));background:linear-gradient(0deg,#ee0979 0,#ff6a00 100%)}header.masthead .bg-circle-1{height:90rem;width:90rem;bottom:-55rem;left:-55rem}header.masthead .bg-circle-2{height:50rem;width:50rem;top:-25rem;right:-25rem}header.masthead .bg-circle-3{height:20rem;width:20rem;bottom:-10rem;right:5%}header.masthead .bg-circle-4{height:30rem;width:30rem;top:-5rem;right:35%}@media (min-width:992px){header.masthead{padding-top:calc(10rem + 55px);padding-bottom:10rem}header.masthead .masthead-content .masthead-heading{font-size:6rem}header.masthead .masthead-content .masthead-subheading{font-size:4rem}}.bg-primary{background-color:#ee0979!important}.btn-primary{background-color:#ee0979;border-color:#ee0979}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#bd0760!important;border-color:#bd0760!important}.btn-primary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(238,9,121,.5);box-shadow:0 0 0 .2rem rgba(238,9,121,.5)}.btn-secondary{background-color:#ff6a00;border-color:#ff6a00}.btn-secondary:active,.btn-secondary:focus,.btn-secondary:hover{background-color:#c50!important;border-color:#c50!important}.btn-secondary:focus{-webkit-box-shadow:0 0 0 .2rem rgba(255,106,0,.5);box-shadow:0 0 0 .2rem rgba(255,106,0,.5)}
+</style>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">어서와, 찬영인 처음이지?</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+           
+          </li>
+          <li class="nav-item">
+            
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container">
+        <h1 class="masthead-heading mb-0">Not Man,김찬영</h1>
+        <h2 class="masthead-subheading mb-0">이름은 남자, 사실은 여자</h2>
+        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Come On~</a>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="{% static 'img/06.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">풋풋 방년 23세,<br> 화공과 금발여신</h2>
+            <p>지금까지 이런 여자는 없었다. 그녀의 이름은 김찬영. 화공생물공학과 사망년으로 동대 금발미녀로 통한다. 터지는 과제로 도서관에서 살지만, 이젠 그곳도 불편하다. 자리만 비우면 올려져있는 음료수와 쪽지... 수시로 느껴지는 따가운 시선...<br> 그녀는 이제 지겹다.   </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="{% static 'img/05.jpg'%}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">그대 눈에 CHEERS!<br> 잔든건을 잇는 김'잔'영</h2>
+            <p>겉보기와는 달리, 진정한 이 시대의 술찌인 그녀. 반병~ 1병, 고삐가 풀리면 2병까지. 소박한 주량을 가지고 있다. 막입이라 술맛은 잘 모르지만, 술자리를 무척 좋아한다. 작은 설득에도 쉽게 넘어가니 n빵을 원한다면 주저없이 설득하라.<br>(와인잔 주목!)</p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5">
+            <img class="img-fluid rounded-circle" src="{% static 'img/08.jpg' %}" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">그녀는 애니메이션 덕후</h2>
+            <p>만찢녀인 그녀(드래곤볼 초사이언아님..)에게도 취미가 있었으니, 그것은 바로 영화보기다. 특히 애니메이션을 좋아하는 그녀. 하루만에 드길1,2를 보고 다음 날 개봉하는 드길3를 보러갈 만큼 열정이 대단하다. 사실은 극장판도 아주 많이 좋아하는데, 동네에 애니메이션을 좋아하는 친구가 없어 매 번 혼영을 한다. 영화관 옆자리에는 전부 어린 아이들이지만 그녀는 그들 못지않게 신이난다.. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-black">
+    <div class="container">
+      <p class="m-0 text-center text-white small">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
